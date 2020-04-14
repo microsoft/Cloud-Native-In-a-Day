@@ -1,31 +1,59 @@
+# Cloud Native In a Day
 
-# Contributing
+This workshop is designed for Microsoft partners to drive the adoption of cloud native technologies on Azure across customers. It includes whiteboard design session materials and hands-on lab. Content is based on Microsoft Cloud Workshops, that are widely used by Microsoft specialists and solution architects.
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+April 2020
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+## Before you start
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+- Take a look at a partner marketing materials for [Cloud Native In a Day](https://partner.microsoft.com/en-us/asset/collection/cloud-native-in-a-day)
+- Review Welcome Video on [Microsoft Cloud Workshop homepage](https://microsoftcloudworkshop.com/) to understand the concept of Microsoft Cloud Workshops
+- Review [How to deliver Microsoft Cloud Workshop](https://microsoftcloudworkshop.com/HowToDeliver/) content
 
-# Legal Notices
+## Abstracts
 
-Microsoft and any contributors grant you a license to the Microsoft documentation and other content
-in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
-see the [LICENSE](LICENSE) file, and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the
-[LICENSE-CODE](LICENSE-CODE) file.
+### Workshop
 
-Microsoft, Windows, Microsoft Azure and/or other Microsoft products and services referenced in the documentation
-may be either trademarks or registered trademarks of Microsoft in the United States and/or other countries.
-The licenses for this project do not grant you rights to use any Microsoft names, logos, or trademarks.
-Microsoft's general trademark guidelines can be found at http://go.microsoft.com/fwlink/?LinkID=254653.
+Fabrikam Medical Conferences provides conference web site services, tailored to the medical community. Their business has grown and the management of many instances of the code base and change cycle per tenant has gotten out of control.
 
-Privacy information can be found at https://privacy.microsoft.com/en-us/
+The goal of this workshop is to help them build a proof of concept (POC) that will migrate their code to a more manageable process that involves containerization of tenant code, a better DevOps workflow, and a simple lift-and-shift story for their database backend.
 
-Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
-or trademarks, whether by implication, estoppel or otherwise.
+In this workshop, you will build a proof of concept (POC) that will transform an existing on-premises application to a container-based application. This POC will deliver a multi-tenant web app hosting solution leveraging Azure Kubernetes Service (AKS), Docker containers on Linux nodes, and a migration from MongoDB to Cosmos DB.
+
+At the end of this workshop, you will be better able to improve the reliability of and increase the release cadence of your container-based applications through time-tested DevOps practices.
+
+### Whiteboard Design Session
+
+In this whiteboard design session, you will learn about the choices related to building and deploying containerized applications in Azure, critical decisions around this, and other aspects of the solution, including ways to lift-and-shift parts of the application to reduce applications changes.
+
+By the end of this design session, you will be better able to design solutions that target Azure Kubernetes Service (AKS) and define a DevOps workflow for containerized applications.
+
+### Hands-on Lab
+
+This hands-on lab is designed to guide you through the process of building and deploying Docker images to the Kubernetes platform hosted on Azure Kubernetes Services (AKS), in addition to learning how to work with dynamic service discovery, service scale-out, and high-availability.
+
+At the end of this lab, you will be better able to build and deploy containerized applications to Azure Kubernetes Service and perform common DevOps procedures.
+
+## Azure services and related products
+
+- Azure Kubernetes Service (AKS)
+- Azure Container Registry
+- Azure DevOps
+- Docker
+- Cosmos DB (including MongoDB API)
+
+## Related references
+
+- [MCW](https://github.com/Microsoft/MCW)
+
+## Help & Support
+
+We welcome feedback and comments from Microsoft SMEs & learning partners who deliver MCWs.  
+
+***Having trouble?***
+- First, verify you have followed all written lab instructions (including the Before the Hands-on lab document).
+- Next, create a new Issue in the repo with detailed description of the issue and any troubleshooting steps performed.
+
+If you are planning to present a workshop, *review and test the materials early*! We recommend at least two weeks prior.
+
+Leave your comments by creating a new topic in Issues section or send an email to appinnovationinaday@microsoft.com with any questions.

@@ -1,0 +1,39 @@
+name: 0.1.$(Rev:r)
+
+trigger:
+- master
+
+resources:
+- repo: self
+
+variables:
+  dockerRegistryServiceConnection: 'Fabmedical ACR'
+  imageRepository: 'content-init'
+  containerRegistry: '$(containerRegistryName).azurecr.io'
+  containerRegistryName: 'fabmedical[SHORT_SUFFIX]'
+  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
+  tag: '$(Build.BuildNumber)'
+  vmImageName: 'ubuntu-latest'
+
+stages:
+- stage: Build
+  displayName: Build and Push
+  jobs:  
+  - job: Docker
+    displayName: Build and Push Docker Image
+    pool:
+      vmImage: $(vmImageName)
+    steps:
+    - checkout: self
+      fetchDepth: 1
+
+    - task: Docker@2
+      displayName: Build and push an image to container registry
+      inputs:
+        command: buildAndPush
+        repository: $(imageRepository)
+        dockerfile: $(dockerfilePath)
+        containerRegistry: $(dockerRegistryServiceConnection)
+        tags: |
+          $(tag)
+          latest

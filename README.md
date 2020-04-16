@@ -27,7 +27,7 @@ Start from presenting Cloud Native applications on Azure story using the [includ
 
 ### Part II: Whiteboard Design Session
 
-During [whiteboard design session](Whiteboard design session), you will discuss the choices related to building and deploying containerized applications in Azure, critical decisions around this, and other aspects of the solution, including ways to lift-and-shift parts of the application to reduce applications changes.
+During [whiteboard design session](Whiteboard-design-session), you will discuss the choices related to building and deploying containerized applications in Azure, critical decisions around this, and other aspects of the solution, including ways to lift-and-shift parts of the application to reduce applications changes.
 
 By the end of this design session, you will design solutions that target Azure Kubernetes Service (AKS) and define a DevOps workflow for containerized applications.
 

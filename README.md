@@ -7,8 +7,7 @@ April 2020
 ## Before you start
 
 - Take a look at a partner marketing materials for [Cloud Native In a Day](https://partner.microsoft.com/en-us/asset/collection/cloud-native-in-a-day)
-- Review Welcome Video on [Microsoft Cloud Workshop homepage](https://microsoftcloudworkshop.com/) to understand the concept of Microsoft Cloud Workshops
-- Review [How to deliver Microsoft Cloud Workshop](https://microsoftcloudworkshop.com/HowToDeliver/) content
+- Review [How to deliver Cloud Native In a Day workshop](https://note.microsoft.com/US-NOGEP-WBNR-FY20-05May-14-CloudNativeApps-SRDEM17754_Registration.html) session recording
 
 ## Abstracts
 
